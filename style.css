@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: rgb(26, 31, 34);
+}
+
+.active{
+    background-color: rgb(238, 182, 0);
+    color: black;
+}
+/* style for navbar  */
+nav{
+    display: flex;
+    font-size: 25px;
+}
+nav h3{
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul{
+    margin: 10px 0px 0px 400px;
+}
+a{
+
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+
+}
+li:hover{
+    background-color: rgb(238, 182, 0);
+    color: black;
+}
+
+/* style for container */
+
+.container{
+    display: flex;
+    
+    height: 60vh;
+    margin: 80px 20px;
+}
+.image{
+    width: 30%;
+
+}
+
+.btn{
+    height: 35px;
+    width: 135px;
+    border-radius: 30px 30px 0px 30px;
+    background-color: rgb(39, 165, 60);
+}
+.information{
+    /* background-color: rgb(21, 90, 47); */
+    width: 50%;
+
+}
+.information h3{
+    font-size: 25px;
+}
+.information h4{
+    font-size: 20px;
+}
+.information input,h3,h4,p,ul{
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.information i{
+    margin: 5px;
+}
+.information li{
+    margin: 10px 30px;
+}
+
+
+/* education page style */
+table{
+    width: 80%;
+    border-collapse:collapse;
+    margin: 110px 110px;
+}
+thead{
+    background-color: #2d9b19eb;
+    font-weight: bold;
+}
+tbody{
+    background-color: black;
+}
+th,td{
+    border: 1px solid ;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* skills page style */
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.box{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(233, 141, 3);
+}
+
+.box:hover{
+    background-color: rgb(81, 179, 43);
+}
+
+/* achivement page style */
+
+.achivement{
+    display: flex;
+}
+.certificate ,img{
+    height: 500px;
+    width: 570px;
+    margin: 20px;
+}
+
+/* contact page style */
+.contact{
+    height: 450px;
+    width: 380px;
+    margin: 30px 415px;
+    padding: 9px;
+    background-color: rgb(31, 24, 24);
+}
+
+.contact input, textarea{
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+    color: black;
+}
+.submit input{
+    width: 150px;
+    text-align: center;
+    margin: 10px 100px;
+    background-color: rgb(255, 238, 0);
+}
+
